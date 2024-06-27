@@ -1,0 +1,29 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    gap: 30px;
+    width: 30vh;
+    height: 80vh;
+    align-items: center;
+    position: fixed;
+    box-sizing: white 18px;
+    z-index: 1;
+}
+
+.nav-items {
+    align-items: center;
+    text-align: left;
+}
+
+.nav-items ul a {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-items ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

@@ -1,0 +1,35 @@
+.home {
+    width: calc(100% - 30vh);
+    height: 90vh; 
+    margin-left: 30vh;
+    margin-top: 10vh;
+    box-sizing: border-box; 
+}
+
+.home {
+    display: flex;
+    padding-left: 100px;
+
+}
+
+.home .left {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .left h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 70px;
+}
+
+.home .left p {
+    font-weight: 550;
+}
+
+.home .right {
+    max-width: 400px;
+}
+  

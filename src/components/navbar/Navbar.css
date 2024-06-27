@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 600px;
+    width: 70vh;
+    height: 10vh;
+    align-items: center;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.search input {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid;
+    box-shadow: 18px white;
+}
+
+.search input::placeholder {
+    text-align: center;
+}
