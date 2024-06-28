@@ -1,15 +1,17 @@
 .navbar {
     display: flex;
     justify-content: center;
-    gap: 600px;
-    width: 70vh;
+    gap: 400px;
+    width: 50%;
+    max-width: 80%;
     height: 10vh;
     align-items: center;
     position: fixed;
     top: 0; 
-    left: 0;
+    right: 0;
     width: 100%;
     z-index: 0;
+
 }
 
 .search input {

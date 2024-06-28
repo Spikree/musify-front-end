@@ -8,10 +8,6 @@ const Navbar = () => {
         <div className="search">
             <input type="text" placeholder='search a Song, Artist or an Album' />
         </div>
-
-        <div className="user-icon">
-        <FaRegUserCircle className='icon' />
-        </div>
     </div>
   )
 }

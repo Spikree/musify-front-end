@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div style={{margin:0}} className='app'>
       <Navbar/>
-      <Sidebar/>
+      <Sidebar className="sidebar-main"/>
       <Home/>
       <Categories/>
     </div>
