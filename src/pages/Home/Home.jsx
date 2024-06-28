@@ -3,6 +3,7 @@ import './Home.css'
 import categories from '../../assets/categoriesData';
 import Categories from '../../components/categories/Categories';
 import CategoryCard from '../../components/category card/CategoryCard';
+import untitled from '../../assets/Untitled.png'
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
         </div>
 
         <div className="right">
-            
+            <img src={untitled} alt="" />
         </div>
     </div>
 
@@ -23,7 +24,7 @@ const Home = () => {
     {
       categories.map((categories) => {
         return (
-          <CategoryCard Category={categories.name} />
+          <CategoryCard key={categories.id} Category={categories.name} />
         )
       })
     }

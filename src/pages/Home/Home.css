@@ -9,7 +9,6 @@
 .home {
     display: flex;
     padding-left: 100px;
-
 }
 
 .home-main {
@@ -36,5 +35,8 @@
 
 .home .right {
     max-width: 400px;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: 100px;
 }
   
