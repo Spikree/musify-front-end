@@ -1,0 +1,36 @@
+.music-card {
+    max-width: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.image {
+    padding: 15px;
+}
+
+.image img {
+    max-width: 170px;
+    border-radius: 15px;
+}
+
+.song-name {
+    padding-left: 15px;
+}
+
+.song-name p {
+    font-weight: 700;
+    color: rgb(99, 88, 27);
+    font-size: 17px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.singer {
+    padding-left: 15px;
+}
+
+.singer p {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}

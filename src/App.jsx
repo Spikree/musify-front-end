@@ -2,7 +2,6 @@ import React from 'react'
 import Sidebar from './components/sidebar/Sidebar'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/Home/Home'
-import Categories from './components/categories/Categories'
 
 const App = () => {
   return (
@@ -10,7 +9,6 @@ const App = () => {
       <Navbar/>
       <Sidebar className="sidebar-main"/>
       <Home/>
-      <Categories/>
     </div>
   )
 }
