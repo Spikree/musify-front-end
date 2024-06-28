@@ -1,5 +1,5 @@
 import React from 'react';
-import categories from '../../assets/categories.js';
+import categories from '../../assets/categoriesData.js';
 import './Categories.css';
 import Box from '../box/Box.jsx';
 
@@ -12,7 +12,7 @@ const Categories = () => {
         {categories.map((category) => {
           return (
             <div className="cards" key={category.id}> 
-              <Box value={category.name} /> 
+              <Box key={category} a={category.name} value={category.name} /> 
             </div>
           );
         })}

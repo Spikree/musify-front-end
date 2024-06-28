@@ -12,6 +12,11 @@
 
 }
 
+.home-main {
+    display: flex;
+    flex-direction: column;
+}
+
 .home .left {
     max-width: 400px;
     display: flex;

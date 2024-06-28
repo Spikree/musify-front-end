@@ -3,7 +3,7 @@ import './Box.css'
 
 const Box = (props) => {
   return (
-    <div className='card'>
+    <div className='box-card'>
         <a href="">{props.value}</a>
     </div>
   )

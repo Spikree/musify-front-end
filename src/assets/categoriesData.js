@@ -1,4 +1,4 @@
-const categories = [
+const categoriesData = [
     {
         id:1,
         name: "Trending"
@@ -37,4 +37,4 @@ const categories = [
     },
 ]
 
-export default categories;
+export default categoriesData;
