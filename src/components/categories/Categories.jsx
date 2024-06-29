@@ -12,7 +12,7 @@ const Categories = () => {
         {categories.map((category) => {
           return (
             <div className="cards" key={category.id}> 
-              <Box key={category} a={category.name} value={category.name} /> 
+              <Box key={category} a={category.ID} value={category.name} /> 
             </div>
           );
         })}

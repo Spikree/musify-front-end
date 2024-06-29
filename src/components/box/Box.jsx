@@ -4,7 +4,7 @@ import './Box.css'
 const Box = (props) => {
   return (
     <div className='box-card'>
-        <a href="">{props.value}</a>
+        <a href={`#${props.a}`}>{props.value}</a>
     </div>
   )
 }

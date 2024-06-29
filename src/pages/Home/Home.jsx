@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import categories from '../../assets/categoriesData';
+import categoriesData from '../../assets/categoriesData';
 import Categories from '../../components/categories/Categories';
 import CategoryCard from '../../components/category card/CategoryCard';
 import untitled from '../../assets/Untitled.png'
@@ -22,9 +22,9 @@ const Home = () => {
 
     <Categories/>
     {
-      categories.map((categories) => {
+      categoriesData.map((categories) => {
         return (
-          <CategoryCard key={categories.id} Category={categories.name} />
+          <CategoryCard id={categories.ID} key={categories.id} Category={categories.name} />
         )
       })
     }

@@ -3,7 +3,7 @@ import './MusicCard.css';
 
 const MusicCard = (props) => {
   return (
-    <div className='music-card' >
+    <div id='' className='music-card' >
         <div className="image">
             <img src={props.image} alt="" />
         </div>

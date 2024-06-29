@@ -5,7 +5,7 @@ import musicData from '../../assets/musicData'
 
 const CategoryCard = (props) => {
   return (
-    <div className='categoryCard'>
+    <div id={props.id} className='categoryCard'>
 
         <div className="c-header" id={props.Category}>
             <h2>{props.Category}</h2>
@@ -15,7 +15,7 @@ const CategoryCard = (props) => {
             {
               musicData.map((musicData) => {
                 return (
-                  <MusicCard key={musicData.id} image={musicData.albumArt} songName={musicData.songName} singer={musicData.artist}/>
+                  <MusicCard  key={musicData.id} image={musicData.albumArt} songName={musicData.songName} singer={musicData.artist}/>
                 )
               })
             }

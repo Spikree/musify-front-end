@@ -1,39 +1,48 @@
 const categoriesData = [
     {
         id:1,
-        name: "Trending"
+        name: "Trending",
+        ID: "trending"
     },
     {
         id:2,
-        name: "Bollywood Hits"
+        name: "Bollywood Hits",
+        ID: "bollywood-hits"
     },
     {
         id:3,
-        name: "Global Hits"
+        name: "Global Hits",
+        ID: "global-hits"
     },
     {
         id:4,
-        name: "Just dropped"
+        name: "Just dropped",
+        ID: "just-dropped"
     },
     {
         id:5,
-        name: "Rising stars"
+        name: "Rising stars",
+        ID: "rising-stars"
     },
     {
         id:6,
-        name: "Gym"
+        name: "Gym",
+        ID: "gym"
     },
     {
         id:7,
-        name: "Regionals"
+        name: "Regionals",
+        ID: "regionals"
     },
     {
         id:8,
-        name: "Mixes"
+        name: "Mixes",
+        ID: "mixes"
     },
     {
         id:9,
-        name: "Bollywood Retro"
+        name: "Bollywood Retro",
+        ID: "bollywood-retro"
     },
 ]
 
