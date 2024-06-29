@@ -6,6 +6,7 @@
     max-width: 80%;
     height: 10vh;
     align-items: center;
+    background: transparent;
     position: fixed;
     top: 0; 
     right: 0;
