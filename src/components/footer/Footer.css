@@ -1,0 +1,14 @@
+.footer {
+    width: 80%;
+    padding-left: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-bold {
+    font-weight: 800;
+    padding-bottom: 15px;
+}

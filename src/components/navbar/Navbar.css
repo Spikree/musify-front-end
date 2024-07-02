@@ -23,6 +23,8 @@
     border-radius: 15px;
     border: 1px solid;
     box-shadow: 18px white;
+    background-color: black;
+    border: 2px solid white;
 }
 
 .search input::placeholder {
